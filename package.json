@@ -1,0 +1,36 @@
+{
+  "name": "link_parser_server",
+  "version": "1.0.0",
+  "description": "Backend application for parsing urls",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development && nodemon --exec ts-node src/server/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afobaje/link_parser_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afobaje/link_parser_server/issues"
+  },
+  "homepage": "https://github.com/afobaje/link_parser_server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.2"
+  }
+}
